@@ -55,7 +55,6 @@ export default function TaskList({ tasks, onTaskUpdated, onEditTask }: Props) {
   if (tasks.length === 0) {
     return (
       <div className="text-center py-12">
-        <div className="text-6xl mb-4">Editar</div>
         <h3 className="text-xl font-semibold text-gray-400 mb-2">
           No hay tareas
         </h3>
