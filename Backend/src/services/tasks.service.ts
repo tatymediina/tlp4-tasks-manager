@@ -1,6 +1,6 @@
 // services/tasks.service.ts
-import { Tasks } from '../models/tasks.models.js';
-import { ITask } from '../types/tasks.types.js';
+import { Tasks } from '../models/tasks.models';
+import { ITask } from '../types/tasks.types';
 
 export class TasksService {
   public async getTasks(): Promise<ITask[]> {

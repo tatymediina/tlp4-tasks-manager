@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { MONGO_URI } from '../constants/db.js';
+import { MONGO_URI } from '../constants/db';
 
 class ConnectDB {
   private static instancia: ConnectDB;
