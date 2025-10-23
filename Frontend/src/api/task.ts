@@ -1,6 +1,6 @@
 import type { ITask } from "../types/task";
 
-const URI = "http://localhost:3402/api/tasks";
+const URI = "/api/tasks";
 
 export const getAllTasks = async () => {
   try {
